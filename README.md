@@ -14,7 +14,7 @@ _____________________________________________________________________________
 
 ## Contribution
 
-|👩‍💻 Hayeon Gwon|👩‍🏫 Sojeong Lee|🕵️‍♀️ Su-a Jang|💁 Woohyeong Choi|
+|👩‍💻 Hayeon Gwon|👩‍🏫 Sojeong Lee|🕵️‍♀️ Su-a Jang|💁 Woohyung Choi|
 |:-------:|:-------:|:-------:|:-------:|
 |**[@Hayeon Gwon]**|**[@SOJEO](https://github.com/SOJEO)**|**[@Su-aJ815](https://github.com/su-aJ815)**|**[@choiwh000](https://github.com/choiwh000)**|
 
