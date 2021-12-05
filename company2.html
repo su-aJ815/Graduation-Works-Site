@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    -ms-overflow-style: none;
+            scrollbar-width: none;
+}
+
+::-webkit-scrollbar { display: none; }
+
+ul {
+    list-style: none;
+}
+
+.introduce {
+    width: 70%;
+    height: 520px;
+    margin: auto;
+    margin-top: 72px;
+    display: flex;
+}
+
+#students_detail {
+    width: 30%;
+    height: 100%;
+    border: 1px solid #333;
+    margin-right: 20px;
+}
+
+#students_img {
+    width: 180px;
+    height: 180px;
+    background-color: #C4C4C4;
+    margin: auto;
+    margin-top:10%;
+    border-radius: 200px;
+}
+
+.introduce p {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 4px;
+    margin-top: 16px;
+    width: 100%;
+}
+
+.introduce h2 {
+    font-size: 22px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.introduce ul {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    
+}
+
+.introduce li {
+    padding: 2px 20px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+.introduce ul a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+#link{
+ color: blue;
+ margin-top: 24px;
+} 
+
+#det {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+#email, #tel {
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+#one_spk {
+    text-align: left;
+    width: 70%;
+    margin: auto;
+    font-size: 14px;
+    margin-top: 30px;
+    line-height:1px;
+    white-space: nowrap;
+}
+
+.bold {
+    
+    font-weight: bold;
+}
+
+#suggestion {
+    width: 70%;
+    height: 45px;
+    margin-left: 15%;
+    text-align: center;
+    margin-top: 36px;
+    background-color: #727272;
+    border: none;
+    color: #fff;
+}
+
+#students_about {
+    width: 70%;
+    height: 100%;
+    border: 1px solid #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    
+}
+
+#students_about h2, #students_about p, #students_about ul{
+    text-align: left;
+}
+
+#stu_side {
+    width: 90%;
+    margin: auto;
+
+}
+
+#students_about ul{
+    background-color: blueviolet;
+    width: 300px;
+    text-align: left;
+
+
+}
+
+#students_about p{
+    margin-bottom: 40px;
+}
+
+.apply{
+    width: 100%;
+    height: 600px;
+    background-color: burlywood;
+}
+
+    </style>
+</head>
+<body>
+    <main>
+
+        <div class='introduce'>
+            <div id='students_detail'>
+                <div id='students_img'></div>
+                <p>의류</p>
+                <h2>멋쟁이호랭이</h2>
+               
+                <p id="link">http://www.kpu.ac.kr/index.do?sso=ok</p>
+                <p id='det'>이메일 <span id='email'>kpu123456@gmail.com</span></p>
+                <p id='det'>전화번호 <span id='tel'>010-1234-5678</span></p>
+                
+                <button id='suggestion' onclick="fn_spread('hiddenContent')">지원하기</button>
+            </div>
+
+
+
+
+            <div id='students_about'>
+                <div id='stu_side'>
+                    <h1>회사 소개</h1>
+                    <p>the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy 
+                        the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy
+                        the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy
+                        the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy
+                        the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy
+                    </p>
+
+                    <h1>원하는 인재상</h1>
+                    
+                    <p>the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy 
+                        the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy
+                        the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy
+                        the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy
+                        the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy
+
+                    </p>
+                </div>
+                </div>
+            </div>
+
+            <div class="apply" id="hiddenContent" style="display: none;">
+                <h1>지원서 작성</h1>
+                <button class="upload">이력서 첨부</button>
+                <button class="upload">포트폴리오 첨부</button>
+
+                <h3>최근 문제 해결을 했던 경험을 기재해주세요.</h3>
+                <input>
+
+                <h3>자신의 장점을 기재해주세요.</h3>
+                <input>
+
+                <h3>AI를 의류에 적용한다면 어떤 아이템이 좋을지 생각나는 대로 적어주세요.</h3>
+                <input>
+
+                <h3>기존 의류 회사의 문제점이 무엇이라고 생각하는지 기재해주세요.</h3>
+                <input>
+
+                <button>지원하기</button>
+            </div>
+
+        <script>
+            function fn_spread(id){ 
+        var getID = document.getElementById(id); 
+        getID.style.display=(getID.style.display=='block') ? 'none' : 'block'; 
+        }
+        </script>
+
+</body>
+</html>
