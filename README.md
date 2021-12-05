@@ -10,7 +10,7 @@
 _____________________________________________________________________________
 
 ## UI Design
-
+#### [Prototype - Figma 보러가기](https://www.figma.com/file/ZgFULc8MpO5nbSmETNXD1Y/웹사이트-기획_Team7?node-id=70%3A1173)
 
 ## Contribution
 
