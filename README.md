@@ -16,5 +16,5 @@ _____________________________________________________________________________
 
 |👩‍💻 Hayeon Gweon|👩‍🏫 Sojeong Lee|🕵️‍♀️ Su-a Jang|💁 Woohyung Choi|
 |:-------:|:-------:|:-------:|:-------:|
-|**[@gweonhayeon(https://github.com/gweonhayeon)]**|**[@SOJEO](https://github.com/SOJEO)**|**[@Su-aJ815](https://github.com/su-aJ815)**|**[@choiwh000](https://github.com/choiwh000)**|
+|**[@gweonhayeon](https://github.com/gweonhayeon)**|**[@SOJEO](https://github.com/SOJEO)**|**[@Su-aJ815](https://github.com/su-aJ815)**|**[@choiwh000](https://github.com/choiwh000)**|
 
