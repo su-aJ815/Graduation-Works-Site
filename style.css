@@ -20,7 +20,6 @@ ul {
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: #EEEEEE;
 }
 
 .navigation{
@@ -29,7 +28,7 @@ ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: #333;
+    color: #0E1F46;
 }
 
 .navigation h1{
@@ -50,7 +49,12 @@ ul {
 
 .navigation a{
     text-decoration: none;
-    color: #333;
+    color: #0E1F46;
+}
+
+.navigation li :hover{
+    border-bottom: solid 4px #B1E7FC;
+    padding-bottom: 4px;
 }
 
 .sub_header {

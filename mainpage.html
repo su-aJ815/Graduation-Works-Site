@@ -329,6 +329,7 @@
             color: #333;
             font-size: 26px;
             font-weight: 400;
+            padding-top: 20px;
         }
        
     </style>
@@ -378,7 +379,7 @@
 
     <div class="btnHolder">
         <button class="toggleBtn"
-            onclick="document.getElementById('hiddenContent').style.display=(document.getElementById('hiddenContent').style.display=='block') ? 'none' : 'block';">
+            onclick="fn_spread('hiddenContent')">
             <span id="add_to_me fold">
                 <i class="fas fa-angle-down fa-2x"></i>
             </span>
@@ -415,6 +416,8 @@
         var getID = document.getElementById(id); 
         getID.style.display=(getID.style.display=='block') ? 'none' : 'block'; 
         }
+
+ 
     </script>
 
 </body>
