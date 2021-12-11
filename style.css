@@ -1123,7 +1123,7 @@ input:focus {outline:none;}
 #comment {
     display: flex;
     justify-content:space-between;
-    width: 70%;
+    width: 76%;
     margin: auto;
     margin-top: 70px;
     font-size: 24px;
@@ -1143,7 +1143,7 @@ input:focus {outline:none;}
 }
 
 #comment_exp {
-    width: 70%;
+    width: 76%;
     margin: auto;
     margin-top: 18px;
     margin-bottom: 24px;
@@ -1151,30 +1151,35 @@ input:focus {outline:none;}
 }
 
 #work_img {
-    width: 70%;
+    width: 76%;
     margin: auto;
     height: 400px;
-    border: 1px solid #333;
-    margin-bottom: 48px;
+    background-color: #EBEBEB;
 
 }
 
 .prof_speak {
-    width: 100%;
+    width: 76%;
+    margin: auto;
     height: 252px;
-    background-color: #F0F0F0;
+    background: rgba(59, 114, 238, 0.52);
+    position: relative;
 }
 
 .prof_speak p {
-    width: 70%;
-    margin: auto;
+    width: 60%;
+    margin-left: 10%;
+    padding-top: 50px;
     font-size: 18px;
+    
 }
 
 #prof {
+    position: absolute;
     font-size: 16px;
-    padding-top: 60px;
-    margin-bottom: 20px;
+    right: 10%;
+    bottom: 10%;
+    text-align: right;
 }
 
 #prof_name {
@@ -1188,7 +1193,7 @@ input:focus {outline:none;}
     width: 70%;
     text-align: center;
     margin: auto;
-    margin-top: 72px;
+    margin-top: 202px;
     margin-bottom: 48px;
 }
 
