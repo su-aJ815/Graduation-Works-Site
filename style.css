@@ -584,6 +584,18 @@ input:focus {outline:none;}
 
 /* 메인 콘텐츠*/
 
+
+
+#com_title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 39px;
+    color: #3B72EE;
+    padding-left: 48%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/* 
 .company {
     display: grid;
     width: 70%;
@@ -593,46 +605,78 @@ input:focus {outline:none;}
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
+} */
+
+.company {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 40px;
 }
 
 .com {
     border: 1px solid #333;
+    width: 364px;
+    height: 600px;
+    position: relative;
+    border-radius: 20px;
 }
 
-.com:nth-child(1) {
+
+
+
+/* .com:nth-child(1) {
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 3;
     background-color: #F2F2F2;
-}
+} */
 
 #com_img {
-    width: 95%;
-    height:50%;
+    width: 180px;
+    height:180px;
     border: 1px solid #333;
     margin: auto;
-    margin-top: 2.5%;
+    margin-top: 88px;
+    margin-left: 32px;
     background-color: #fff;
+    border-radius: 1000px;
 }
 
-#com_mainLogo {
+/* #com_mainLogo {
     width: 95px;
     height: 95px;
     border: 1px solid #333;
     background-color: #fff;
     border-radius: 60px;
     margin: -50px auto 16px auto;
-}
+} */
 
 .com p {
     text-align: center;
 }
 
 #sm_p {
+    position: absolute;
     font-size: 10px;
-    color: #00E717;
+    color: #3B72EE;
     margin-bottom: 4px;
+    top: 120px;
+    right: 48px;
+}
+
+.companyName {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    top: 142px;
+    left: 250px;
+    text-decoration: none;
+    text-align: center;
+    
 }
 
 .com h2 {
@@ -645,36 +689,68 @@ input:focus {outline:none;}
     gap: 20px;
     width: 100%;
     justify-content: center;
-    margin-top: 12px;
+    margin-top: 40px;
 }
 
 .com li {
-    background-color: #fff;
+    background-color: #E7E7E7;
     padding: 4px 10px;
     border-radius: 20px;
     font-size: 14px;
 }
 
 #talk {
-    width: 90%;
+    width: 80%;
     margin: auto;
     text-align: center;
     font-size: 16px;
     margin-top: 28px;
+    margin-bottom: 50px;
 }
 
-#com_logo {
+#com_go {
+    background-color: #3B72EE;
+    padding: 12px 70px;
+    color: #fff;
+    border-radius:10px;
+    text-decoration: none;
+
+}
+
+#com_deco {
+    background-image: url(./img/com_Group\ 86.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top : 545px;
+    left: -200px;
+}
+
+#com_deco2 {
+    background-image: url(./img/com_Rectangle\ 150.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top : 1650px;
+    right: 00px;
+}
+
+/* #com_logo {
     width: 124px;
     height: 124px;
     border: 1px solid #333;
     margin: auto;
     margin-top: 40px;
     border-radius: 300px;
-}
+} */
 
-.side p {
+/* .side p {
     margin-top:20px;
-}
+} */
 
 #next {
     display: flex;
