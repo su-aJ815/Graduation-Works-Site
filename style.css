@@ -1625,7 +1625,7 @@ input:focus {outline:none;}
     text-align: center;
 
     margin-top: 94px;
-    margin-left: 950px;
+    margin-left: 650px;
     z-index: 2;
 }
 
@@ -1645,4 +1645,106 @@ input:focus {outline:none;}
     top: 40px;
 
 }
+
+.poly4{
+    width: 300px;
+    height: 300px;
+    
+    background-image: url('./img/com_Group\ 86.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: absolute;
+    z-index: -1;
+    left: -80px;
+    top: 500px;
+
+}
+
+#info{
+    font-size: 15px;
+    color: #4D4D4D;
+    line-height: 28px;
+    text-align: center;
+
+    margin-top: 48px;
+}
+
+.backgroundText{
+    opacity: 15%;
+    font-size: 120px;
+    color: #3B72EE;
+    font-weight: 500;
+
+    position: absolute;
+}
+
+#media{
+    top: 200px;
+    left: 40px;
+}
+
+#design{
+    top: 535px;
+    right: 40px;
+}
+
+#Engineering{
+    top: 1580px;
+    left: 40px;
+}
+
+#firstmdeCon{
+    margin-top: 288px;
+}
+
+#secondmdeCon{
+    margin-top: 120px;
+}
+
+.mdeCon{
+    width: 100%;
+    height: 273px;
+}
+
+.introduce {
+    width: 1680px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: center;
+    color: #4D4D4D;
+
+    gap: 32px;
+
+}
+
+.introduce div {
+    width: 500px;
+    height: 273px;
+    
+}
+
+#introduceImg {
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.25))
+}
+
+.introduce h2 {
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 32px;
+}
+
+.introduce p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
 
