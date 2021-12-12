@@ -1616,3 +1616,33 @@ input:focus {outline:none;}
     font-size: 20px;
 }
 
+/* mde.html */
+.aboutTitle{
+    color: #3B72EE;
+    font-size: 39px;
+    font-weight: 500;
+    line-height: 56px;
+    text-align: center;
+
+    margin-top: 94px;
+    margin-left: 950px;
+    z-index: 2;
+}
+
+.poly3{
+    width: 340px;
+    height: 370px;
+    transform: rotate(20deg);
+
+    background-image: url('./img/work_Rectangle\ 159.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: absolute;
+    z-index: -1;
+    right: -100px;
+    top: 40px;
+
+}
+
