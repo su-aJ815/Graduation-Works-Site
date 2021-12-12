@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/cca2516819.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+}
+
+::-webkit-scrollbar { display: none; }
+
+.nav-container {
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+        }
+
+        .navigation1{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: #0E1F46;
+
+            line-height: 60px;
+        }
+
+        #kpu-logo{
+            margin-left: 120px;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 60px;
+        }
+
+        .navigation1 ul{
+            display: flex;
+            flex-direction: row;
+
+            align-items: center;
+            margin-right: 120px;
+        }
+
+        .navigation1 li{
+            list-style: none;
+            font-size: 16px;
+            margin-left: 50px;
+        }
+
+        .navigation1 a{
+            text-decoration: none;
+            color: #0E1F46;
+        }
+
+        .navigation1 li :hover{
+            border-bottom: solid 4px #B1E7FC;
+            padding-bottom: 4px;
+        }
+
+        .archive{
+            width: 100%;
+            height: 90px;
+
+            margin-top: 72px;
+            text-align: center;
+        }
+
+        .arousel{
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .carousel-inner img {
+            width: 1000px;
+            height: 600px;
+        }
+
+        .carousel-inner h3{
+          font-size: 32px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 36px;
+        }
+
+        .footer{
+            width: 100%;
+            height: 60px;
+            margin-top: 660px;
+            text-align: center;
+        }
+
+        .footer h3{
+            color: #333;
+            font-size: 26px;
+            font-weight: 400;
+        }
+
+       
+
+  </style>
+</head>
+<body>
+  <header class="nav-container1">
+    <nav class="navigation1">
+        <a href="./index.html"><h1 id="kpu-logo">KPU DESIGN</h1></a>
+        <ul>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./stundents.html">STUDENTS</a></li>
+            <li><a href="./works.html">WORKS</a></li>
+            <li><a href="./company.html">CONNECT</a></li>
+            <li><a href="./former.html">FORMER-GRADUATED</a></li>
+        </ul>
+    </nav>
+</header>
+    <div class="archive">
+        
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <h3 class="formerText"> 2020 GRADUATE EXHIBITION </h3>
+      <img src="https://images.unsplash.com/photo-1637869317879-8edf70c68e41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE2fENEd3V3WEpBYkV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60" alt="2020">
+    </div>
+    <div class="carousel-item">
+      <h3 class="formerText"> 2021 GRADUATE EXHIBITION </h3>
+      <img src="https://images.unsplash.com/photo-1637937267030-6d571ad57f3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfENEd3V3WEpBYkV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60" alt="2021">
+    </div>
+    <div class="carousel-item">
+      <h3 class="formerText"> 2022 GRADUATE EXHIBITION </h3>
+      <img src="https://images.unsplash.com/photo-1637595056843-c80c2f49c861?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI0fENEd3V3WEpBYkV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60" alt="2022">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+<div class="footer">
+    <h3>KPU DESIGN</h3>
+</div>
+
+</body>
+</html>

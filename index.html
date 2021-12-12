@@ -65,12 +65,12 @@
         .mainFeature{
             width: 100%;
             height: 120px;
-            margin-top: 156px;
+            margin-top: 204px;
             text-align: center;
         }
 
         .mainTitle{
-            font-size: 32px;
+            font-size: 35px;
             font-weight: 700;
             color: #3B72EE;
         }
@@ -165,6 +165,15 @@
             font-size: 14px;
         }
 
+        .tagStlye2{
+            border: none;
+            padding: 10px 12px;
+            height: 40px;
+            border-radius: 20px;
+            color: #3B72EE;
+            font-size: 14px;
+        }
+
         .colorA{
             background-color: #A9C1F8;
         }
@@ -224,7 +233,7 @@
         .tagOpen{
             width: 100%;
             height: 600px;
-            margin-top: 100px;
+            margin-top: 158px;
         }
 
         .circle1{
@@ -273,7 +282,7 @@
             width: 100%;
             height: 700px;
             text-align: center;
-            margin-top: 72px;
+            margin-top: 166px;
 
             background-color: #3B72EE;
         }
@@ -331,6 +340,51 @@
             font-weight: 400;
             padding-top: 20px;
         }
+
+        .poly{
+            width: 263px;
+            height: 247px;
+
+            background-image: url('./img/stu_Union.png');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            position: absolute;
+            top: 114px;
+            left: -88px;
+        }
+
+        .poly2{
+            width: 397px;
+            height: 415px;
+
+            background-image: url('./img/com_Group\ 86.png');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            position: absolute;
+            right: -150px;
+            top: 650px;
+        }
+
+        .floatingTag{
+            border: solid 1px white;
+            padding: 12px 38px;
+            height: 48px;
+            border-radius: 24px;
+            box-shadow: 0px 2px 2px rgb(147, 147, 147);
+
+            background-color: #4B78DF;
+            color: white;
+            font-size: 16px;
+
+            position: absolute;
+            z-index: 2;
+            top: 1108px;
+            right: 870px;
+        }
        
     </style>
 </head>
@@ -347,6 +401,7 @@
             </ul>
         </nav>
     </header>
+    <div class="poly"></div>
     <div class="mainFeature">
         <h1 class="mainTitle">Search for graduation works you want to watch</h1>
         <div class="search">
@@ -359,34 +414,29 @@
             <div class="rowA">
                 <button class="tagStlye t-six colorA"># 4차산업혁명</button>
                 <button class="tagStlye t-four colorB"># 활동적인</button>
-                <button class="tagStlye t-nine colorC"># 한국산업기술대학교</button>
-                <button class="tagStlye t-five colorA"># 공학관 A</button>
+                <button class="tagStlye t-nine colorA"># 한국산업기술대학교</button>
+                <button class="tagStlye t-five colorC"># 공학관 A</button>
             </div>
             <div class="rowB">
-                <button class="tagStlye t-four colorC"># 인공지능</button>
-                <button class="tagStlye t-nine colorA"># UXUI 디자이너</button>
+                <button class="tagStlye t-four colorA"># 인공지능</button>
+                <button class="tagStlye t-nine colorC"># UXUI 디자이너</button>
                 <button class="tagStlye t-six colorB"># PRODUCT</button>
                 <button class="tagStlye t-five colorA"># 인터페이스</button>
             </div>
             <div class="rowC">
-                <button class="tagStlye t-ten colorB"># PRODUCT 디자이너</button>
-                <button class="tagStlye t-four colorC"># 메타포</button>
-                <button class="tagStlye t-eight colorA"># 유니버설 디자인</button>
+                <button class="tagStlye t-ten colorC"># PRODUCT 디자이너</button>
+                <button class="tagStlye t-four colorA"># 메타포</button>
+                <button class="tagStlye2 t-eight colorA" onclick="fn_spread('hiddenContent')"># 유니버설 디자인</button>
                 <button class="tagStlye t-four colorC"># KPU</button>
             </div>
         </div>
     </div>
 
-    <div class="btnHolder">
-        <button class="toggleBtn"
-            onclick="fn_spread('hiddenContent')">
-            <span id="add_to_me fold">
-                <i class="fas fa-angle-down fa-2x"></i>
-            </span>
-        </button>
-    </div>
+    
     <div id="hiddenContent" class="tagOpen" style="display: block;">
+        <div class="poly2"></div>
         <div class="circle1">
+            <button class="floatingTag"># UXUI</button>
             <div class="circle2">
                 <div class="circle3">
                     <h1>2021</h1>
