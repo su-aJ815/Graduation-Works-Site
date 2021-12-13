@@ -205,6 +205,13 @@ ul {
 
 }
 
+.ab_pur2 h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
 
 #ab_right1 {
     width: 212px;
@@ -301,27 +308,28 @@ ul {
     #ab_kpu {
         right: 20%;
     }
+
     
 }
 
 @media (min-width: 1920px) {
     #ab_big {
         
-        left: 20%;
+        left: 25%;
     }
 
     #ab_small {
         
-        right: 42%;
+        right: 37%;
     }
 
     #ab_small2 {
         
-        right: 30%;
+        right: 25%;
     }
 
     #ab_kpu {
-        right: 30%;
+        right: 25%;
     }
 
     .ab_pur {
@@ -330,8 +338,13 @@ ul {
     }
 
     .ab_exp {
-        left: 15%;
+        left: 18%;
         width: 1200px;
+    }
+
+    .ab_pur2 {
+        width: 50%;
+        left: 25%;
     }
     
     
@@ -567,12 +580,14 @@ input:focus {outline:none;}
     margin-top: 20px;
     font-size: 18px;
     line-height: 90px;
+    color: #fff;
 }
 
-#explain h4 a{
+#explain p{
     color: #fff;
-    text-decoration: none;
 }
+
+
 
 .students:hover #explain {
     opacity: 1;
@@ -1126,6 +1141,7 @@ input:focus {outline:none;}
     width: 30%;
     margin: auto;
     margin-top: 639px;
+
     
     
 }
@@ -1134,7 +1150,9 @@ input:focus {outline:none;}
     color: #333;
     font-size: 24px;
     font-weight: 500;
+    text-align:center;
     margin-bottom: 10px;
+    
 }
 
 #stu2_wline {
@@ -1176,6 +1194,7 @@ input:focus {outline:none;}
     color: #333;
     font-size: 24px;
     font-weight: 500;
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -1237,6 +1256,7 @@ input:focus {outline:none;}
 }
 
 .stu2_contact h3 {
+    text-align: center;
     color: #333;
     font-size: 24px;
     font-weight: 500;
