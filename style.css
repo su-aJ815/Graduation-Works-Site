@@ -1738,6 +1738,10 @@ input:focus {outline:none;}
         margin-right: 400px;
     }
 
+    .newContentImg div{
+        width: 560px;
+    }
+
  }
 
 /* mde.html */
@@ -1917,6 +1921,208 @@ footer > h3{
     font-size: 26px;
     font-weight: 400;
     padding-top: 72px;
+}
+
+/* tag 페이지 */
+#tagTitle{
+    margin-bottom: 98px;
+}
+
+#tagTitle2{
+    margin-top: 150px;
+    margin-bottom: 98px;
+}
+
+#box1{
+    width: 65%;
+    margin: auto;
+    height: 500px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 90px;
+}
+
+#eachBox{
+    width: 480px;
+    height: 100%;
+}
+
+#eachBox div{
+    width: 100%;
+    height: 443px;
+}
+
+#subTag{
+    margin-top: 24px;
+    font-size: 24px;
+    font-weight: 500;
+
+    line-height: 24px;
+}
+
+#subTag span{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: #C4C4C4;
+
+    padding: 4px 8px;
+    border-radius: 13px;
+    margin-left: 16px;
+}
+
+#B1{
+    background-image: url('./img/Frame\ 57.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#B2{
+    background-image: url('./img/image\ 39.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#middleTI{
+    width: 70%;
+    margin: auto;
+    height: 460px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#Tag_img {
+    width: 100%;
+    margin: auto;
+    height: 440px;
+
+    background-image: url('./img/woelMiddleimg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: 24px;
+}
+
+#MDHolder{
+    width: 100%;
+    text-align: center;
+}
+
+#middleMore{
+    width: 123px;
+    height: 38px;
+    background-color: #B9CEFF;
+    border-radius: 10px;
+    border: none;
+
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 6px 12px;
+
+    margin: auto;
+    margin-top: 90px;
+    margin-left: auto;
+
+}
+
+.studentTag{
+    width: 65%;
+    height: 650px;
+
+    margin: auto;
+    margin-top: 132px;
+    padding-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+
+    text-align: center;
+}
+
+.studentTag div{
+    width: 241px;
+    height: 264px;
+    border-radius: 124px;
+
+    background-color: #E7E7E7;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+
+.studentTag h2{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 80px;
+}
+
+.studentTag p{
+    font-size: 12px;
+    color: #3B72EE;
+}
+
+.companyTag{
+    width: 65%;
+    height: 780px;
+
+    margin: auto;
+    margin-top: 132px;
+    padding-bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+
+    text-align: center;
+} 
+
+#companyBox{
+    width: 241px;
+    height: 340px;
+    border: solid 1px #333;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+#companyBox div{
+    width: 80%;
+    height: 210px;
+    border-radius: 124px;
+    background-color: #E7E7E7;
+
+    margin-top: 48px;
+}
+
+#companyBox div > h2{
+    font-size: 16px;
+    color: #333;
+    margin-top: 90px;
+    font-weight: 400;
+}
+
+@media (min-width: 1920px) {
+    
+
+    #eachBox{
+        width: 540px;
+        height: 100%;
+    }
 }
 
 
