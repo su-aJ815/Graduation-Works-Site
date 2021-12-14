@@ -1877,10 +1877,31 @@ textarea:focus {outline: none}
     
 }
 
-#introduceImg {
+.introduceImg {
     background-color: #EBEBEB;
     border-radius: 10px;
-    filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.25))
+    filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.25));
+    background-image: url(./img/about_detail/274C673352817F1128.jpg);
+}
+
+#int_img1 {
+    background-image: url(./img/about_detail/274C673352817F1128.jpg);
+}
+
+#int_img2 {
+    background-image: url(./img/about_detail/unnamed.jpg);
+}
+
+#int_img3 {
+    background-image: url(./img/about_detail/d1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#int_img4 {
+    background-image: url(./img/about_detail/d2.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
 .introduce h2 {
@@ -1931,6 +1952,73 @@ textarea:focus {outline: none}
     background-color: #E0E0E0;
     box-shadow: 2px 4px 15px #c2c2c2;
 }
+
+.picCon div:nth-child(1) {
+    background-image: url(./img/about_detail/unnamed\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+.picCon div:nth-child(2) {
+    background-image: url(./img/about_detail/unnamed\ \(2\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+.picCon div:nth-child(3) {
+    background-image: url(./img/about_detail/unnamed\ \(3\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+.picCon div:nth-child(4) {
+    background-image: url(./img/about_detail/playable.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+#picIm div:nth-child(1) {
+    background-image: url(./img/about_detail/d3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+#picIm div:nth-child(2) {
+    background-image: url(./img/about_detail/d4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+#picIm div:nth-child(3) {
+    background-image: url(./img/about_detail/d5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+#picIm div:nth-child(4) {
+    background-image: url(./img/about_detail/d6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+
+
 
 footer{
     width: 100%;
