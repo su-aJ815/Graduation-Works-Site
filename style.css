@@ -1206,41 +1206,56 @@ input:focus {outline:none;}
 #stu2_img {
     width: 480px;
     height: 480px;
-    background-color: #EEEEEE;
-    border-radius: 1000px;
     position: absolute;
     right: 15%;
-    top: 20px
+    top: 20px;
+    background-image: url(./img/students_detail/프로필페이지사진\ 1.png);
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 6px 20px rgba(0, 0, 0, 0.25));
 }
 
 .stu2_about {
-    width: 70%;
+    width: 65%;
     margin: auto;
 }
 
 #stu2_pro {
-    background-image: url(./img/stu2_Vector\ 21.png);
+
     background-size: cover;
-    width: 490px;
-    height: 400px;
+    width: 500px;
+    height: 410px;
     position: absolute;
     top: 821px;
-    
-   
-
-    /* 나중에 지울 거 */
-    line-height: 490px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
 }
+
+#stu2_pro:nth-child(1) {
+    top: 850px;
+    background-image: url(./img/students_detail/Vector\ 21.png);
+    left: 19.5%;
+}
+
+#stu2_pro:nth-child(2) {
+    height: 493px;
+    width: 396px;
+    top: 730px;
+    background-image: url(./img/students_detail/프로필\ 페이지\ -\ 증명사진_\ 1.png);
+    background-size: cover;
+    z-index: 999;
+    left: 21%;
+}
+
+
+#stu2_pro:nth-child(3) {
+    top: 830px;
+    background-image: url(./img/stu2_Vector\ 21.png);
+}
+
 
 .stu2_me {
     width: 40%;
-    margin-left: 200px;
     position: absolute;
     top: 821px;
-    right: 0;
+    right: 180px;
     
 }
 
@@ -1298,11 +1313,35 @@ input:focus {outline:none;}
     justify-content: space-between;
 }
 
-#stu2_do {
+.stu2_do {
     width: 96px;
     height: 96px;
     background-color: #A9C3FF;
     border-radius: 200px;
+}
+
+#do_1 {
+    background-image: url(./img/students_detail/blender아이콘\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#do_2 {
+    background-image: url(./img/students_detail/포토샵로고\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#do_3 {
+    background-image: url(./img/students_detail/일러로고\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#do_4 {
+    background-image: url(./img/students_detail/프리미어로고\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .what_i ul li p {
@@ -1338,7 +1377,7 @@ input:focus {outline:none;}
 }
 
 .stu2_work {
-    border: 1px solid #333;
+    filter: drop-shadow(0px 2px 13px rgba(104, 104, 104, 0.25));
 }
 
 .stu2_work:nth-child(1) {
@@ -1346,6 +1385,10 @@ input:focus {outline:none;}
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 4;
+    background-image: url(./img/students_detail/프로필work사진2\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
@@ -1354,6 +1397,9 @@ input:focus {outline:none;}
     grid-row-end: 3;
     grid-column-start: 4;
     grid-column-end: 8;
+    background-image: url(./img/students_detail/스크린샷\ 2021-12-14\ 오전\ 1.32\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .stu2_work:nth-child(3) {
@@ -1361,6 +1407,9 @@ input:focus {outline:none;}
     grid-row-end: 4;
     grid-column-start: 8;
     grid-column-end: 10;
+    background-image: url(./img/students_detail/프로필work사진6\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .stu2_work:nth-child(4) {
@@ -1368,6 +1417,9 @@ input:focus {outline:none;}
     grid-row-end: 6;
     grid-column-start: 1;
     grid-column-end: 4;
+    background-image: url(./img/students_detail/프로필work사진4\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .stu2_work:nth-child(5) {
@@ -1375,6 +1427,9 @@ input:focus {outline:none;}
     grid-row-end: 6;
     grid-column-start: 4;
     grid-column-end: 7;
+    background-image: url(./img/students_detail/프로필work사진3\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .stu2_work:nth-child(6) {
@@ -1382,6 +1437,9 @@ input:focus {outline:none;}
     grid-row-end: 6;
     grid-column-start: 7;
     grid-column-end: 10;
+    background-image: url(./img/students_detail/프로필work사진5\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .stu2_contact h3 {
