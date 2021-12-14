@@ -487,55 +487,80 @@ footer h1 {
 .stu_tag {
     width: 100%;
     height: 336px;
-    background-image: url(./img/stu_Polygon\ 1.png);
+    margin: auto;
+    position: relative;
+}
+
+#top_img {
+    width: 86px;
+    height: 37px;
+    background-image: url(./img/Group\ 125.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
-    position: relative;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    top: 115px;
+
+}
+
+.stu_tag p {
+    text-align: center;
+    padding-top: 140px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #3B72EE;
 }
 
 input:focus {outline:none;}
 
 #stu_search {
     position: absolute;
-    top: 103px;
-    left: 15%;
-    width: 411px;
-    padding-left: 40px;
+    width: 684px;
+    padding-left: 290px;
+    right: 50%;
+    left: 50%;
+    top: 216px;
+    transform: translate(-50%, -50%);
     height: 44px;
-    border: 2px solid #fff;
+    border: none;
     border-radius: 20px; 
+    filter: drop-shadow(0px 4px 9px rgba(0, 0, 0, 0.25));
 }
 
 #stu_search::placeholder {
     color: #fff;
-    opacity: 0.8;
+    opacity: 0.7;
+    font-size: 17px;
 }
 
 #stu_icon {
     position: absolute;
     font-size: 20px;
-    top: 115px;
-    color: #fff;
-    left: calc( 15% + 432px );
+    top: 204px;
+    color: #3B72EE;
+    left: calc( 35% + 684px );
 }
 
 .stu_tag ul {
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
     position: absolute;
-    top: 180px;
-    left: 15%;
+    top: 268px;
+    width: 20%;
+    left: 40%;
 }
 
 .stu_tag ul li a {
     
     color: #333;
     text-decoration: none;
-    background-color: #B1E7FC;
+    background-color: #B9CEFF;
     padding: 4px 16px;
     border-radius: 13px;
     font-size: 14px;
+    text-align: center;
 }
 
 
@@ -567,7 +592,7 @@ input:focus {outline:none;}
     bottom: 68px;
     width: 212px;
     height: 212px;
-    background-color: #525252;
+    background: rgba(59, 114, 238, 0.58);
     border-radius: 300px;
     color: #fff;
     text-align: center;
@@ -642,6 +667,32 @@ input:focus {outline:none;}
 
 /* 메인 */
 
+#work_tag {
+    background-image: url(./img/stu_Polygon\ 1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 378px;
+}
+
+#work_tag p {
+    color: #fff;
+}
+
+#work_tag > #stu_search {
+    border: 2px solid #fff;
+}
+
+#work_tag > #stu_icon {
+    position: absolute;
+    font-size: 20px;
+    top: 204px;
+    color: #fff;
+    left: calc( 35% + 684px );
+
+}
+
 .work_main {
     display: flex;
     width: 70%;
@@ -653,7 +704,30 @@ input:focus {outline:none;}
 #work_mom {
     width: 409px;
     height: 443px;
-    background-color: #EBEBEB;
+}
+
+#first_work > #work_mom:nth-child(1) {
+    background-image: url(./img/work/Frame\ 57.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#first_work > #work_mom:nth-child(2) {
+    background-image: url(./img/work/image\ 39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#second_work > #work_mom:nth-child(1) {
+    background-image: url(./img/work/image\ 40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#second_work > #work_mom:nth-child(2) {
+    background-image: url(./img/work/image\ 37.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #work_mname {
@@ -676,12 +750,24 @@ input:focus {outline:none;}
     padding: 0px 10px;
 }
 
-#work_3d {
-    width: 74%;
+.work_3d {
+    width: 55%;
     height: 440px;
     background-color: #EBEBEB;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 80px;    
+}
+
+#fir_3d {
+    background-image: url(./img/work/Frame\ 59.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sec_3d {
+    background-image: url(./img/work/Frame\ 55.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #right_work {
