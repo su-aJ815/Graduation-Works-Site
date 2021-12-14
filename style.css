@@ -1361,10 +1361,21 @@ input:focus {outline:none;}
     margin-bottom: 244px;
 }
 
-#mwImg {
+.mwImg {
     width: 45%;
     height: 100%;
-    border: 1px solid #333;
+}
+
+#mw1 {
+    background-image: url('./img/work_detail/image\ 42.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#mw2 {
+    background-image: url('./img/work_detail/image\ 43.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #mwIntro {
@@ -1419,9 +1430,20 @@ input:focus {outline:none;}
 .newContentImg div{
     width: 500px;
     height: 470px;
-    border: solid 1px #333;
 
     margin-bottom: 90px;
+}
+
+#new1 {
+    background-image: url('./img/work_detail/스크린샷\ 2021-12-15\ 오전\ 1.02\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#new2 {
+    background-image: url('./img/work_detail/123.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #commentTitle{
