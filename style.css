@@ -1556,50 +1556,6 @@ input:focus {outline:none;}
 
 }
 
-/* .prof_speak {
-    width: 76%;
-    margin: auto;
-    height: 252px;
-    background: rgba(59, 114, 238, 0.52);
-    position: relative;
-}
-
-.prof_speak p {
-    width: 60%;
-    margin-left: 10%;
-    padding-top: 50px;
-    font-size: 18px;
-    
-} */
-
-/* #prof {
-    position: absolute;
-    font-size: 16px;
-    right: 10%;
-    bottom: 10%;
-    text-align: right;
-}
-
-#prof_name {
-    font-size: 30px;
-    font-weight: bold;
-} */
-
-.detail_work {
-    display: flex;
-    width: 50%;
-    height: 248px;
-    margin: auto;
-    margin-top: 96px;
-    justify-content: space-around;
-}
-
-#deta {
-    width: 30%;
-    height: 100%;
-    border: 1px solid #333;
-}
-
 #det_intro {
     margin: auto;
     margin-top: 32px;
@@ -1720,50 +1676,56 @@ input:focus {outline:none;}
     font-weight: 700;
 }
 
-#pariticipation {
-    font-size: 24px;
-    font-weight: bold;
-    width: 70%;
-    text-align: center;
-    margin: auto;
-    margin-top: 88px;
-    margin-bottom: 8px;
-}
 
-.bottom_part {
-    width: 70%;
-    height: 716px;
-    margin: auto;
-    
-    border: 1px solid #333;
-}
-
-.btm_flex {
-    width: 90%;
-    margin: auto;
-    margin-top: 46px;
+.detail_work {
     display: flex;
-    justify-content: space-between;
-}
-
-#part_img {
-    width: 48%;
-    height: 252px;
-    background-color: #EBEBEB;
+    width: 60%;
+    height: 248px;
     margin: auto;
+    margin-top: 96px;
+    justify-content: space-around;
 }
 
-#part_name {
-    width: 90%;
-    margin:auto;
-    text-align: left;
-    margin-top: 52px;
-    font-size: 16px;
+#deta {
+    width: 30%;
+    height: 100%;
 }
 
-#pname {
-    font-weight: bold;
-    font-size: 20px;
+#deta > #stuImg{
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    margin: auto;
+
+    background-color: #c2c2c2;
+    margin-bottom: 32px;
+}
+
+#deta ul{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+}
+
+#deta li{
+    background-color: #B9CEFF;
+    padding: 4px 12px;
+    border-radius: 14px;
+}
+
+.pop{
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    width: 559px;
+    height: 100vh;
+    background-color: #3B72EE;
+
+    box-shadow: -1px 0px 12px #313f7b;
 }
 
 @media (min-width: 1920px) {
