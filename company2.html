@@ -169,6 +169,7 @@ ul {
     width: 70%;
     height: 100%;
     border: 1px solid #333;
+    border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
@@ -241,14 +242,15 @@ ul {
 }
 
 .applyBtn{
-    width: 290px;
-    height: 50px;
+    width: 139px;
+    height: 38px;
     font-size: 18px;
     text-align: center;
 
     color: white;
-    background-color: #727272;
+    background-color: #3B72EE;
     border: none;
+    border-radius: 10px;
 
     margin-top: 24px;
 
@@ -280,6 +282,18 @@ ul {
     
     padding-top: 4px;
     padding-bottom: 4px;
+}
+
+footer {
+    width: 100vw;
+    height: 100px; 
+    margin-top: 140px;
+}
+
+footer h1 {
+    text-align: center;
+    line-height: 230px;
+    color: rgb(139, 139, 139);
 }
 
 
@@ -362,9 +376,13 @@ ul {
                 <input type="text" placeholder="최대 500자">
 
                 <div class="btnContainer">
-                <button class="applyBtn">지원하기</button>
+                <button class="applyBtn">등록</button>
                 </div>
             </div>
+
+            <footer>
+                <h1>footer</h1>
+            </footer>
 
         <script>
             function fn_spread(id){ 
