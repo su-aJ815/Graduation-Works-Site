@@ -332,180 +332,6 @@ ul {
     top: 2600px;
 }
 
-/* @media (min-width: 1440px) {
-    #ab_big {
-        
-        left: 20%;
-    }
-
-    #ab_small {
-        
-        right: 36%;
-    }
-
-    #ab_small2 {
-        
-        right: 20%;
-    }
-
-    #ab_kpu {
-        right: 20%;
-    }
-
-    
-} */
-
-/* @media (min-width: 1920px) {
-    #ab_big {
-        
-        left: 25%;
-    }
-
-    #ab_small {
-        
-        right: 37%;
-    }
-
-    #ab_small2 {
-        
-        right: 25%;
-    }
-
-    #ab_kpu {
-        right: 25%;
-    }
-
-    .ab_pur {
-        left: 25%;
-    
-    }
-
-    .ab_exp {
-        left: 18%;
-        width: 1200px;
-    }
-
-    .ab_pur2 {
-        width: 50%;
-        left: 25%;
-    }
-    
-    
-} */
-
-
-
-
-/* .main_img {
-    position: relative;
-    width: 100vw;
-    height: 180px;
-    border: 1px solid #333;
-
-}
-
-.main_img h1 {
-    position: absolute;
-    color: #333;
-    bottom: 50px;
-    margin: auto;
-    width: 100%;
-    text-align: center;
-    font-size: 32px;
-}
-
-.main_img p {
-    position: absolute;
-    color: #333;
-    bottom: 12px;
-    margin: auto;
-    width: 100%;
-    text-align: center;
-    font-size: 18px;
-}
-
-.main_text {
-    width: 70%;
-    margin: auto;
-    margin-top: 48px;
-    text-align: center;
-}
-
-main h3 {
-    text-align: center;
-    margin-top: 88px;
-}
-
-.details {
-    margin: auto;
-    margin-top: 16px;
-    width: 70%;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    height:500px;
-    gap: 20px;
-   
-}
-
-.detail_li {
-    border: 1px solid #333;
-}
-
-.detail_li h4 {
-    padding:20px 0 0 20px;
-}
-
-.detail_li:nth-child(1) {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
-
-.detail_li:nth-child(2) {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 4;
-    grid-column-end: 8;
-}
-
-.detail_li:nth-child(3) {
-    grid-row-start: 3;
-    grid-row-end: 5;
-    grid-column-start: 1;
-    grid-column-end: 6;
-}
-
-.detail_li:nth-child(4) {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 6;
-    grid-column-end: 8;
-}
-
-.detail_li:nth-child(5) {
-    grid-row-start: 4;
-    grid-row-end: 5;
-    grid-column-start: 6;
-    grid-column-end: 8;
-}
-
-.pictures {
-    width: 70%;
-    height: 256px;
-    margin: auto;
-    margin-top: 16px;
-    
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-}
-
-#pic {
-    width: 256px;
-    border: 1px solid #333;
-} */
 
 /* 푸터 */
 
@@ -1914,6 +1740,101 @@ input:focus {outline:none;}
 
     box-shadow: -1px 0px 12px #313f7b;
 }
+
+.fa-times {
+    font-size: 40px;
+    color: #fff;
+    margin-top: 60px;
+    margin-left: 40px;
+
+}
+
+.pop h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.cm_box {
+    width: 368px;
+    height: 250px;
+    border: 2px solid #fff;
+    margin: auto;
+    margin-top: 60px;
+    position: relative;
+}
+
+.cm_box p {
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 5%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#name {
+    width: 75%;
+}
+
+#cmt {
+    width: 90%;
+    height: 50%;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 5%;
+    top: 50px;
+}
+
+textarea:focus {outline: none}
+
+#submit {
+    width: 137px;
+    height: 28px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    right: 50%;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 14px;
+    background-color: transparent;
+}
+
+.chat {
+    width: 368px;
+    height: 400px;
+    position: absolute;
+    top: 300px;
+    overflow-y: scroll;
+
+}
+
+.chated {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    margin-top: 20px;
+    overflow-y: scroll;
+    
+}
+
+#nm {
+    width: 20%;
+    height: 100%;
+    top: 0;
+    line-height: 40px;
+    
+}
+
+#sp {
+    margin: 0;
+    line-height: 20px;
+    width: 80%;
+
+}
+
 
 @media (min-width: 1920px) {
     .mainItem h1{

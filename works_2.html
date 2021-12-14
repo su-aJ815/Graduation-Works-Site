@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Works_2</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 <body>
     
@@ -35,18 +38,12 @@
                 <div></div>
                 <h1>3D DOT BOOK </h1>
             </div>
-            <button id='comment_btn'>COMMENT</button>
+            <button id='comment_btn' style="cursor:pointer;">COMMENT</button>
         </div>
         
         <p id='comment_exp'>the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox </p>
 
         <div id='work_img'></div>
-
-        <!-- <div class='prof_speak'>
-            
-            <p>the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over</p>
-            <p id='prof'>지도교수 <span id='prof_name'>이천재</span></p>
-        </div> -->
 
         <div class='middle_work' id="middle-workGap">
             <div id='mwImg'></div>
@@ -83,30 +80,68 @@
         </div>
 
         <div class='detail_work'>
-            <div id= 'deta' style="cursor:pointer;">
-                <div id="stuImg" OnClick="location.href ='./stundents.html'"></div>
+            <div id= 'deta' >
+                <div id="stuImg" OnClick="location.href ='./stundents.html'" style="cursor:pointer;"></div>
                 <ul>
-                    <li onclick = "location.href = './tag.html' "># Blender</li>
-                    <li onclick = "location.href = './tag.html' "># UX/UI</li>
+                    <li onclick = "location.href = './tag.html' " style="cursor:pointer;"># Blender</li>
+                    <li onclick = "location.href = './tag.html' " style="cursor:pointer;"># UX/UI</li>
                 </ul>
             </div>
-            <div id= 'deta' style="cursor:pointer;">
-                <div id="stuImg" OnClick="location.href ='./stundents.html'"></div>
+            <div id= 'deta' >
+                <div id="stuImg" OnClick="location.href ='./stundents.html'" style="cursor:pointer;"></div>
                 <ul>
-                    <li onclick = "location.href = './tag.html' "># Blender</li>
-                    <li onclick = "location.href = './tag.html' "># UX/UI</li>
+                    <li onclick = "location.href = './tag.html' " style="cursor:pointer;"># Blender</li>
+                    <li onclick = "location.href = './tag.html' " style="cursor:pointer;"># UX/UI</li>
                 </ul></div>
-            <div id= 'deta' style="cursor:pointer;">
-                <div id="stuImg" OnClick="location.href ='./stundents.html'"></div>
+            <div id= 'deta' >
+                <div id="stuImg" OnClick="location.href ='./stundents.html'" style="cursor:pointer;"></div>
                 <ul>
-                    <li onclick = "location.href = './tag.html' "># Blender</li>
-                    <li onclick = "location.href = './tag.html' "># UX/UI</li>
+                    <li onclick = "location.href = './tag.html' " style="cursor:pointer;"># Blender</li>
+                    <li onclick = "location.href = './tag.html' " style="cursor:pointer;"># UX/UI</li>
                 </ul></div>
         </div>
 
     </main>
 
     <div class="pop">
+        <i class="fas fa-times" style="cursor:pointer;"></i>
+        <h1>COMENT ZONE</h1>
+
+        <div class='cm_box'>
+            <p>name</p>
+            <input type="text" id ='name'>
+            <textarea id="cmt" rows="3" cols="33"></textarea>
+            <button id='submit'style="cursor:pointer;">SUBMIT</button>
+
+            <div class='chat'>
+                <div class='chated'>
+                    <div id='nm'><p>이름</p></div>
+                    <div id='sp'><p>마지막 졸업작품 축하해~ 마지막 졸업작품 축하해~ 마지막 졸업작품 축하해~ 마지막 졸업작품 축하해~ 마지막 졸업작품 축하해~마지막 졸업작품 축하해~마지막 졸업작품 축하해~</p></div>
+                </div>
+
+                <div class='chated'>
+                    <div id='nm'><p>이름</p></div>
+                    <div id='sp'><p>말 할 내용 말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용</p></div>
+                </div>
+
+                <div class='chated'>
+                    <div id='nm'><p>이름</p></div>
+                    <div id='sp'><p>말 할 내용 말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용</p></div>
+                </div>
+                <div class='chated'>
+                    <div id='nm'><p>이름</p></div>
+                    <div id='sp'><p>말 할 내용 말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용</p></div>
+                </div>
+
+                <div class='chated'>
+                    <div id='nm'><p>이름</p></div>
+                    <div id='sp'><p>말 할 내용 말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용말 할 내용</p></div>
+                </div>
+                
+            </div>
+        </div>
+
+
 
     </div>
 
@@ -114,6 +149,8 @@
     <footer>
         <h1>footer</h1>
     </footer>
+
+    <script src="./script.js"></script>
 
 </body>
 </html>
