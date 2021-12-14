@@ -728,25 +728,45 @@ input:focus {outline:none;}
 
 
 
-#com_img {
+.com_img {
     width: 180px;
     height:180px;
-    border: 1px solid #333;
     margin: auto;
     margin-top: 88px;
     margin-left: 32px;
     background-color: #fff;
     border-radius: 1000px;
+    
 }
 
-/* #com_mainLogo {
-    width: 95px;
-    height: 95px;
-    border: 1px solid #333;
-    background-color: #fff;
-    border-radius: 60px;
-    margin: -50px auto 16px auto;
-} */
+#logo1 {
+    background-image: url(./img/넥슨로고.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#logo2 {
+    background-image: url(./img/삼성로고.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#logo3 {
+    background-image: url(./img/카카오로고.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#logo4 {
+    background-image: url(./img/쿠팡로고.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 
 .com p {
     text-align: center;
@@ -831,19 +851,6 @@ input:focus {outline:none;}
     top : 1650px;
     right: 00px;
 }
-
-/* #com_logo {
-    width: 124px;
-    height: 124px;
-    border: 1px solid #333;
-    margin: auto;
-    margin-top: 40px;
-    border-radius: 300px;
-} */
-
-/* .side p {
-    margin-top:20px;
-} */
 
 #next {
     display: flex;
