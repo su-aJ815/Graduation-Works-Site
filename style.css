@@ -1962,7 +1962,7 @@ footer > h3{
     height: 264px;
     border-radius: 124px;
 
-    background-color: #E7E7E7;
+    background-color: rgba(255, 255, 255, 0.8); 
 
     display: flex;
     flex-direction: column;
@@ -1972,7 +1972,7 @@ footer > h3{
 
 .studentTag h2{
     font-size: 16px;
-    color: #fff;
+    color: #333;
     margin-top: 80px;
 }
 
@@ -1981,12 +1981,37 @@ footer > h3{
     color: #3B72EE;
 }
 
+.studentTag ul{
+  
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin: auto;
+    margin-top: -10px;
+}
+
+.studentTag li{
+    background-color: #3B72EE;
+    color: #fff;
+    font-size: 11px;
+    padding: 4px 12px;
+    border-radius: 10px;
+}
+
+#separate{
+    width: 100%;
+    height: 864px;
+    background-color: #3B72EE;
+    margin-top: 100px;
+    padding-top: 32px;
+}
+
 .companyTag{
     width: 65%;
     height: 780px;
 
     margin: auto;
-    margin-top: 132px;
+    margin-top: 12px;
     padding-bottom: 30px;
 
     display: flex;
@@ -2000,12 +2025,14 @@ footer > h3{
 #companyBox{
     width: 241px;
     height: 340px;
-    border: solid 1px #333;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 40px;
+
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 #companyBox div{
@@ -2043,6 +2070,15 @@ footer > h3{
     font-size: 28px;
     font-weight: 600;
     color: #fff;
+}
+
+#explain2 {
+    opacity: 0;
+}
+
+.explainBtn:hover #explain2 {
+    opacity: 1;
+    transition: all 0.5s;
 }
 
 @media (min-width: 1920px) {
