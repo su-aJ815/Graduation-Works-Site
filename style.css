@@ -445,10 +445,122 @@ input:focus {outline:none;}
 .students {
     width: 292px;
     height:383px;
-    border: 1px solid #333;
     position: relative;
     margin-bottom: -50px;
+    
 }
+
+.students:nth-child(4) {
+    background-image: url(./img/졸전\ 사진/jeonminjae.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.students:nth-child(6) {
+    background-image: url(./img/졸전\ 사진/kimjuyeong.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.students:nth-child(8) {
+    background-image: url(./img/졸전\ 사진/kimjiho.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.students:nth-child(10) {
+    background-image: url(./img/졸전\ 사진/junghyeonsoo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.students:nth-child(18) {
+    background-image: url(./img/졸전\ 사진/kimhyeokjin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.students:nth-child(16) {
+    background-image: url(./img/졸전\ 사진/leewonjae.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.students:nth-child(14) {
+    background-image: url(./img/졸전\ 사진/masungjin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.students:nth-child(12) {
+    background-image: url(./img/졸전\ 사진/moonjisub.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.students:nth-child(11) {
+    background-image: url(./img/졸전\ 사진/sinyoungjoon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.students:nth-child(13) {
+    background-image: url(./img/졸전\ 사진/hahyemi.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.students:nth-child(15) {
+    background-image: url(./img/졸전\ 사진/kangyouna.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.students:nth-child(17) {
+    background-image: url(./img/졸전\ 사진/kimgoeun.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.students:nth-child(2) {
+    background-image: url(./img/졸전\ 사진/leehyeonna.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.students:nth-child(1) {
+    background-image: url(./img/졸전\ 사진/sujungmin.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.students:nth-child(3) {
+    background-image: url(./img/졸전\ 사진/kimminjung.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.students:nth-child(5) {
+    background-image: url(./img/졸전\ 사진/kimsojung.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.students:nth-child(7) {
+    background-image: url(./img/졸전\ 사진/leechaeyeon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.students:nth-child(9) {
+    background-image: url(./img/졸전\ 사진/leedaeun.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
 
 .students:nth-child(3n + 2) {
     margin: 60px 18px 0 18px;
