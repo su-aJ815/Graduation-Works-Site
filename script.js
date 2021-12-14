@@ -12,3 +12,22 @@ $('.fa-times').click(function() {
 
 })
 
+
+let a = 0
+
+
+
+
+$('.t-eight').click(function() {
+
+    if (a == 0) {
+        $('#hiddenContent').hide(400);
+        a = 1
+    }else if (a == 1) {
+        $('#hiddenContent').show(400);
+        a = 0
+    }
+
+
+   
+})
