@@ -1440,8 +1440,8 @@ input:focus {outline:none;}
     margin-top: 12px;
     margin-bottom: 172px;
     margin-left: 55%;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 #work_img {
@@ -1509,7 +1509,7 @@ input:focus {outline:none;}
 
     color: #4D4D4D;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 26px;
 }
 
 #right {
@@ -1517,7 +1517,7 @@ input:focus {outline:none;}
 
     color: #4D4D4D;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 26px;
 }
 
 .newContent{
