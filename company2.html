@@ -78,6 +78,8 @@ ul {
     height: 100%;
     border: 1px solid #333;
     margin-right: 20px;
+
+    border-radius: 10px;
 }
 
 #students_img {
@@ -98,7 +100,7 @@ ul {
 }
 
 .introduce h2 {
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     margin: 10px auto;
 }
@@ -126,8 +128,11 @@ ul {
 }
 
 #link{
- color: blue;
- margin-top: 24px;
+    width: 70%;
+    color: #7B7FF1;
+    text-align: left;
+    margin: auto;
+    margin-top: 24px;
 } 
 
 #det {
@@ -160,17 +165,6 @@ ul {
     font-weight: bold;
 }
 
-#suggestion {
-    width: 70%;
-    height: 45px;
-    margin-left: 15%;
-    text-align: center;
-    margin-top: 36px;
-    background-color: #727272;
-    border: none;
-    color: #fff;
-}
-
 #students_about {
     width: 70%;
     height: 100%;
@@ -188,14 +182,6 @@ ul {
 #stu_side {
     width: 90%;
     margin: auto;
-
-}
-
-#students_about ul{
-    background-color: blueviolet;
-    width: 300px;
-    text-align: left;
-
 
 }
 
@@ -231,19 +217,27 @@ ul {
     margin-bottom: 24px;
 }
 
+#uploadBtnCon{
+    width: 290px;
+    height: 120px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    margin-bottom: 55px;
+}
+
 .uploadBtn{
     width: 290px;
     height: 50px;
     font-size: 18px;
     color: #333;
     text-align: center;
-    margin-right: 24px;
-
-    margin-top: 38px;
-    margin-bottom: 54px;
 
     background-color: transparent;
     border: solid 1px #585858;
+    border-radius: 10px;
 }
 
 .applyBtn{
@@ -264,6 +258,28 @@ ul {
 
 .btnContainer{
     text-align: center;
+}
+
+#stu_side ul{
+    width: 280px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    text-align: left;
+
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+#stu_side li{
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #E7E7E7;
+    
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 
@@ -295,7 +311,6 @@ ul {
                 <p id='det'>이메일 <span id='email'>kpu123456@gmail.com</span></p>
                 <p id='det'>전화번호 <span id='tel'>010-1234-5678</span></p>
                 
-                <button id='suggestion' onclick="fn_spread('hiddenContent')">지원하기</button>
             </div>
 
 
@@ -312,7 +327,11 @@ ul {
                     </p>
 
                     <h1>원하는 인재상</h1>
-                    
+                    <ul style="margin-left: 0px;">
+                        <li onclick = "location.href = './tag.html' "># 착한</li>
+                        <li onclick = "location.href = './tag.html' "># 활동적인</li>
+                        <li onclick = "location.href = './tag.html' "># 자신감</li>
+                    </ul>
                     <p>the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy 
                         the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy
                         the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy
@@ -324,10 +343,11 @@ ul {
                 </div>
             </div>
 
-            <div class="apply" id="hiddenContent" style="display: none;">
-                <h1>지원서 작성</h1>
-                <button class="uploadBtn">이력서 첨부</button>
-                <button class="uploadBtn">포트폴리오 첨부</button>
+            <div class="apply" id="hiddenContent">
+                <div id="uploadBtnCon">
+                    <button class="uploadBtn">이력서 첨부</button>
+                    <button class="uploadBtn">포트폴리오 첨부</button>
+                </div>
 
                 <h3>최근 문제 해결을 했던 경험을 기재해주세요.</h3>
                 <input type="text" placeholder="최대 500자">
