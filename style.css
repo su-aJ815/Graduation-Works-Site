@@ -68,7 +68,7 @@ ul {
 
 .sub_li {
     margin: auto;
-    margin-left: 200px;
+    margin-left: 120px;
     display: flex;
     width: 600px;
     line-height: 48px;
@@ -816,7 +816,8 @@ input:focus {outline:none;}
     font-weight: 500;
     font-size: 39px;
     color: #3B72EE;
-    padding-left: 48%;
+    
+    margin: auto;
     margin-top: 60px;
     margin-bottom: 60px;
 }
@@ -1774,8 +1775,8 @@ textarea:focus {outline: none}
     line-height: 56px;
     text-align: center;
 
+    margin: auto;
     margin-top: 94px;
-    margin-left: 650px;
     z-index: 2;
 }
 
